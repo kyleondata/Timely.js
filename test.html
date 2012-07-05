@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<script src='Timely.js' type="text/javascript"></script>
+		<script>
+			function Go(){
+				console.log('start');
+				var sessionTimer = new ti({
+					redirectInterval: 120000,
+					displayInterval: 60000,
+					logoutURL: 'http://www.google.com'
+				});
+				
+				sessionTimer.start();
+			};
+		</script>
+	</head>
+	<body onload='Go();'>
+	
+	</body>
+</html>
