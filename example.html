@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<link href="Timely.css" rel="stylesheet" type="text/css" />
+		<script src='Timely.js' type="text/javascript"></script>
+		<style>
+			*{margin: 0px;}
+		</style>
+		<script>
+			function Go(){
+				console.log('start');
+				var sessionTimer = new ti({
+					redirectInterval: 60000,
+					displayInterval: 60000,
+					logoutURL: 'http://www.google.com',
+					objectId: 'container'
+				});
+				
+				sessionTimer.start();
+			};
+		</script>
+	</head>
+	<body onload='Go();'>
+		<div style='margin: 0;padding: 15px; width: 100%; background-color: #008B8B; color: fff;'><h2>Timely Test</h2></div>
+		<div id='container' style='width: 80%; margin-top: 5px; margin-left: auto; padding:15px; margin-right: auto; border: 1px solid #C0C0C0; height: 600px;'>
+			Just a simple test app to show timely in action.  It is simple to use!
+		
+		</div>
+	
+	</body>
+</html>
