@@ -14,4 +14,4 @@ Pass a few paramaters to a method call and you got your self setup.
 Just take a look at the example.html file to see an implementation.
 
 ##### ToDo
-> Flush out the Readme.md file!
+* Flush out the Readme.md file!
