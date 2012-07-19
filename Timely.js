@@ -1,7 +1,8 @@
 function ti (t){
 	var obj = t.objectId == null ? 'body' : t.objectId;
 	var cssClass = t.cssClass == null ? 'timelyMessage' : t.cssClass;
-	var html = "<div class='" + cssClass + "' >Your session will end in 1 min.</div>";
+	var pingUrl = t.pingUrl;
+	var html = "<div class='" + cssClass + "' >Your session will end in 1 min. <a href='" + pingUrl + "'>Click to stay logged in.</a></div>";
 	
 	//Function to inject the warning into
 	injectMessage = function() {

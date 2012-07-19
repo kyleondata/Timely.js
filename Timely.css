@@ -1,11 +1,15 @@
 .timelyMessage{
 	position:relative;
-	width: 200px;
+	width: 370px;
 	top: 10px; 
-	left: 40%; 
+	left: 34%; 
 	border: 2px dotted #ff0000; 
 	color: #fff; 
 	padding:15px; 
 	background-color: #FF6347;
 	margin-bottom: 25px;
+}
+
+.timelyMessage a{
+	color: #000;
 }
