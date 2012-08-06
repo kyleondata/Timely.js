@@ -13,5 +13,8 @@ How does it work?
 Pass a few paramaters to a method call and you got your self setup.
 Just take a look at the example.html file to see an implementation.
 
+Plus, Timely.js has no dependencies.  This way we can stay lean and mean.
+
 ##### ToDo
 * Flush out the Readme.md file!
+* Once a stable version is complete create a minified version of Timely.js

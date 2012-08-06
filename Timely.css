@@ -13,3 +13,7 @@
 .timelyMessage a{
 	color: #000;
 }
+
+#ti_RemainingTime{
+	padding-right: 5px;
+}
